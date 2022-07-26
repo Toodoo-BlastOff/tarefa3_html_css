@@ -1,0 +1,40 @@
+html {background: grey;}
+
+#moldura {
+    width: 98%;
+    margin: auto;
+    background-image: url(./imagens/matrix.jpg);
+    border: solid;
+    border-image-source: url(./imagens/matrix-red.png);
+    border-image-slice: 15;
+    border-image-width: 20px;
+    border-image-outset: 5px;
+    border-image-repeat: round;
+    
+} 
+
+#texto {
+    width: 80%;
+    background: darkgrey;
+    border: solid 3px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    
+}
+
+textarea {
+    background: blue;
+    font-size: 16pt;
+    min-width: 70%;
+    max-width: 80%;
+    min-height: 400px;
+    max-height: 600px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 2px black;
+    display: block;   /*Textarea é um elemento inline, para definir ele no centro, é preciso converter para bloco*/
+}
+
